@@ -1,0 +1,15 @@
+[package]
+name = "mdx-rs"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0-or-later"
+description = "Rust port of the mdx Go library core APIs"
+
+[lib]
+name = "mdx_rs"
+path = "src/lib.rs"
+
+[dependencies]
+flate2 = "1"
+lzokay = "2"
+
